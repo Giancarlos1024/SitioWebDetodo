@@ -1,0 +1,96 @@
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about-us-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-us-image {
+    flex: 1;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.our-team {
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.team-member img {
+    /* background-color: orange; */
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.team-member p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.mission-vision-values {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.mission, .vision, .values {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.mission h2, .vision h2, .values h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.values li {
+    margin-bottom: 5px;
+}
